@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Preguntas Frecuentes</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="../media/logo.png" alt="logo"></div>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li class="urbanas"><a href="urbanas.html">ZAPATILLAS URBANAS</a> </li>
+                <li class="deportivas"><a href="deportivas.html">ZAPATILLAS DEPORTIVAS</a></li>
+                <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+        <div class="compras">
+            <div class="carrito">
+            <img id="carrito" src="../media/iconos/bolsa-de-la-compra.png" alt="tienda">
+            </div>
+            <div class="cantidad">
+                <span class="productos">0</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="preguntas__p">
+            <h1 class="preguntas__titulo">Preguntas Frecuentes</h1>
+		<div class="categorias" id="categorias">
+			<div class="categoria activa" data-categoria="metodos-pago">
+                <img src="../media/preguntas_img/devolucion-de-dinero.png" alt="Metodos de Pago">
+				<p>Métodos de pago</p>
+			</div>
+			<div class="categoria" data-categoria="entregas">
+                <img src="../media/preguntas_img/envio.png" alt="Entregas">
+				<p>Entregas</p>
+			</div>
+			<div class="categoria" data-categoria="seguridad">
+                <img src="../media/preguntas_img/proteger.png" alt="Seguridad">
+                <p>Seguridad</p>
+			</div>
+			<div class="categoria" data-categoria="cuenta">
+                <img src="../media/preguntas_img/informacion.png" alt="Informacion">
+                <p>Informacion De La Empresa</p>
+			</div>
+		</div>
+
+		<div class="preguntas">
+
+			<!-- Preguntas Metodos de pago -->
+			<div class="contenedor-preguntas activo" id="pagos" data-categoria="metodos-pago">
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Que metodos de pago disponibles tienen? <img src="../media/preguntas_img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Podrás pagar con tu tarjeta bancaria Visa, MasterCard y American Express.
+                        Si pagas directamente con Visa, MasterCard o AMEX podrás pagar hasta 3 cuotas sin asumir el interés bancario. <br>
+                    Tambien podrás acudir a los servicios Rapipago y Pago Fácil más cercanos para poder realizar el pago de tu orden. <br>
+                     </p>
+				</div>
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Tienen plazo de pago? <img src="../media/preguntas_img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Si acreditas el pago mediante Rapipago o Pago Facil recuerda que tu línea de pago cuenta con una vigencia de hasta 5 días. 
+                        Para evitar complicaciones, te sugerimos hacer tu pago lo antes posible y no esperar a la fecha de vencimiento.</p>
+				</div>
+			</div>
+
+			<!-- Preguntas Entregas -->
+			<div class="contenedor-preguntas" id="entregas" data-categoria="entregas">
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Cuanto tarda en llegar mi pedido? <img src="../media/preguntas_img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Una vez que nuestro almacén termine la preparación de tu pedido recibirás un   correo electrónico de confirmación con tu guía de seguimiento.
+                        Sneakers realizará la entrega en la dirección registrada en la orden de 4(cuatro) a 7 (siete) en Ciudad Autónoma de Buenos Aires y hasta 10 días hábiles en resto del país. <br>
+
+                        Recordá que pódes realizar el seguimiento de tu pedido en: <br>
+                        
+                        Seguimiento de Pedidos: Con tu número de pedido / orden podés seguir tu pedido ingesando aquí. <br>
+                        Socio logístico: Ingresa al sitio de nuestro socio logístico OCA y Correo Argentino con la guía de despacho asignada. <br>
+                        Si detectas cualquier anormalidad o retraso de entrega deberás comunicarte con nuestro Centro de Atención a Cliente para que podamos apoyarte.</p>
+				</div>
+				<div class="contenedor-pregunta">
+					<p class="pregunta">Normas y restricciones de envio<img src="../media/preguntas_img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">
+                        Sneakers realizará la entrega en la dirección registrada en la orden de compra dentro del territorio argentino. <br>
+                        Las entregas se realizarán en días hábiles, excepto los días festivos
+                        Todas las entregas irán acompañadas con un acuse de recibo que tiene que ser firmado por el receptor junto con el número de DNI.
+                    </p>
+				</div>
+                <div class="contenedor-pregunta">
+					<p class="pregunta">Cambios y devoluciones<img src="../media/preguntas_img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Para realizar el cambio contás con 30 días corridos a partir de la recepción de tu pedido; esta gestión podés solicitarla poniendote en contacto con el vendedor a traves del numero +54 9 2604-565623
+                     </p>
+				</div>
+			</div>
+
+			<!-- Preguntas Seguridad -->
+			<div class="contenedor-preguntas" id="seguridad" data-categoria="seguridad">
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Es seguro comprar en Sneakers?<img src="../media/preguntas_img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Contamos con la tecnología SSL (Secure Sockets Layer) que asegura tanto la autenticidad de nuestro sitio como el cifrado de toda la información que nos entregás. Cada vez que comprás en Sneakers y completás información de carácter personal, sin importar dónde te encuentres, tu navegador se conecta a nuestro sitio a través del protocolo SSL que acredita que estás realmente en Sneakers y en nuestros servidores (lo cual notarás con la aparición del código HTTPS en la barra de direcciones de tu navegador). De esta forma se establece un método de cifrado de tu información y una clave de sesión única. Esta tecnología permite que información personal, como nombre, dirección y datos de tarjeta de crédito sean codificadas antes de tu transferencia para que no pueda ser leída cuando viaja a través de Internet. Todos los certificados SSL se crean para un servidor particular, en un dominio específico y para una entidad comercial comprobada. Sneakers cuenta con un servidor certificado por Comodo.
+                    </p>
+				</div>
+				<div class="contenedor-pregunta">
+					<p class="pregunta">Terminos y condiciones<img src="../media/preguntas_img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Gracias por visitar la página de términos y condiciones (los “Términos y Condiciones”) de los sitios web Sneakers Argentina S.A. (“Sneakers Argentina”). El acceso y uso de cualquiera de nuestros sitios web, www.Sneakers.com.ar, www.reebok.com.ar, y de  cualquier otro sitio web adicional de Sneakers Argentina (los “Sitios web de Sneakers Argentina”) está sujeto a los siguientes Términos y Condiciones y a las leyes y demás normativa aplicable. Al acceder y navegar en los Sitios web de Sneakers Argentina, usted acepta estos Términos y Condiciones sin limitación o condición alguna, incluyendo los términos y condiciones adicionales y las modificaciones que Sneakers Argentina publique periódicamente. Ciertos servicios y otras ofertas disponibles en los Sitios web de Sneakers Argentina pueden tener términos y condiciones adicionales aplicables, los cuales pueden leerse en las páginas que contengan dichos servicios u ofertas o por medio de un vínculo en dichas páginas u otras direcciones referenciadas hacia dichos términos y condiciones adicionales. Sneakers Argentina podrá realizar cambios en estos Términos y Condiciones cuando sea pertinente por lo que le recomendamos revisarlos periódicamente antes de usar los Sitios web de Sneakers Argentina.</p>
+				</div>
+			</div>
+
+			<!-- Preguntas Cuenta -->
+			<div class="contenedor-preguntas" id="empresa" data-categoria="cuenta">
+				<div class="contenedor-pregunta">
+					<p class="pregunta">Sobre Sneakers<img src="../media/preguntas_img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Sneakers Argentina S.A
+
+                        Cuyo 3532/3512 - Edificio III -Tomas Godoy Cruz 999, Buenos Aires, Argentina (CP 1640) <br>
+                        
+                        CUIT: 30-68514022-1</p>
+				</div>
+				<div class="contenedor-pregunta">
+					<p class="pregunta">Politicas de Privacidad<img src="../media/preguntas_img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Esta Política de Privacidad tiene por objeto proporcionarle una visión clara de cómo usamos los datos personales que el titular de datos personales (en adelante “Usted”) nos proporciona, nuestros esfuerzos por protegerlos, las opciones que tiene para controlar sus datos personales y proteger su privacidad. Asimismo, describe qué tipo de datos personales recopilamos sobre Usted cuando visita nuestro sitio web, la forma en que utilizamos sus datos personales y los terceros con quienes los compartiremos. Utilizamos los datos personales que comparte con nosotros, para hacer que tanto nuestros productos y servicios como su experiencia sean cada vez mejores. <br>
+                    En cumplimiento con la Ley de Protección de Datos Personales N° 25.326 y su reglamentación (en lo sucesivo, la “Ley de Datos”).</p>
+				</div>
+			</div>
+		</div>
+        </section>
+    </main>
+    <script src="../js/categorias.js"></script>
+	<script src="../js/preguntasFrecuentes.js"></script>
+    <footer>
+        <div class="pie">
+            <div class="pie__img">
+                <img src="../media/logo.png" alt="Logo sneakers">
+            </div>
+        </div>
+        <div class="redes__padre">
+            <div class="redes">
+                <div class="redes__img redes__img1">
+                    <a href="#"><img src="../media/iconos/facebook2.svg" alt="Logo facebook"></a>
+                </div>
+                <div class="redes__img">
+                    <a href="#"><img src="../media/iconos/twitter2.svg" alt="Logo twitter"></a>
+                </div>
+                <div class="redes__img">
+                    <a href="#"><img src="../media/iconos/whatsapp.png" alt="Logo whatsapp"></a>
+                </div>
+                <div class="redes__img">
+                    <a href="#"><img src="../media/iconos/pinterest2.svg" alt="Logo pinterest"></a>
+                </div class="redes__img">
+                <div class="redes__img">
+                    <a href="#"><img src="../media/iconos/instagram2.svg" alt="Logo instagram"></a>
+                </div>
+            </div>
+        </div>
+          <div class="pie__email">
+            <div class="correo">
+                <input type="email" placeholder="Ingrese su Email">
+                <a href="#">SUSCRIBE</a>
+            </div>
+          </div>  
+
+        <div class="footer__info">
+                <div class="titulos">
+                    <h3>Empresa</h3>
+                    <div class="info__tienda info__empresa">
+                        <ul>
+                            <li><a href="#">Atencion al cliente</a></li>
+                            <li><a href="#">Dudas Frecuentes</a></li>
+                            <li><a href="#">Cambios y devoluciones</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="titulos">
+                    <h3>Informacion De La Tienda</h3>
+                    <div class="info__tienda">
+                        <ul>
+                            <li><a href="contacto.html">Tomas Godoy Cruz 999</a></li>
+                            <li><a href="contacto.html">Mendoza Argentina</a></li>
+                            <li><a href="contacto.html">+91 9999 9999</a></li>
+                            <li><a href="contacto.html">sneakers@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="titulos"> 
+                    <h3>Informacion</h3>
+                 <div class="info__tienda">
+                    <ul>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Informacion de entrega</a></li>
+                        <li><a href="#">Politicas de privacidad</a></li>
+                        <li><a href="#">Terminos y condiciones</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="padre__copy">
+            <div class="copyright">
+                <p>© 2022 - Sneakers Zapatillas Urbanas y Deportivas™</p>
+            <div class="copy__img">
+                <img src="../media/tarjetas.png" alt="Tarjetas recibidas">
+            </div>
+            </div>
+        </div>
+    </footer>  
+</body>
+</html>
